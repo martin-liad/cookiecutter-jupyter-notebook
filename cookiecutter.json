@@ -1,0 +1,6 @@
+{
+    "project_name": "Test Project",
+    "project_repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "project_description": "A data analysis project using Jupyter Notebook.",
+    "project_type": ["mapping", "general"]
+}

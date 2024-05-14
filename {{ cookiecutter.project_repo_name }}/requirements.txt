@@ -1,0 +1,44 @@
+## Jupyter
+# jupyterlab
+notebook
+# nb_conda_kernels
+
+## Analysis
+matplotlib
+numpy
+pandas
+seaborn
+
+## Misc
+python-dotenv
+
+## Less frequently used packages:
+
+## GIS
+{% if cookiecutter.project_type == "mapping" %}
+geopandas
+{% else %}
+# geopandas
+{% endif %}
+
+## ML, NLP, and related
+# scipy
+# scikit-learn
+# statsmodels
+# nltk
+# gensim
+
+## Data access
+# UKCensusAPI
+# fingertips_py
+# statxplorer @ https://github.com/philipbrien/statxplorer/zipball/master
+# LBLDataAccess @ https://github.com/lb-lewisham/LBLDataAccess.git
+
+## Interactives
+# bokeh
+# folium
+# plotly
+
+## Record linkage
+# splink
+# vega
