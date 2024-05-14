@@ -13,8 +13,8 @@
 │   ├── processed      <- The final data sets for publication.
 │   └── raw            <- The original, immutable data files.
 │
-├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-│                         generated with `pip freeze > requirements.txt
+├── requirements.txt   <- The requirements file for reproducing the analysis environment, 
+│                         e.g. generated with `pip freeze > requirements.txt
 ├── .env               <- Environment variables                          
 │
 └── *.ipynb            <- Example Jupyter notebooks to get you started
