@@ -4,21 +4,25 @@ notebook
 # nb_conda_kernels
 
 ## Analysis
-matplotlib
+matplotlib >= 3.4.0
 numpy
 pandas
 seaborn
 
 ## Misc
-python-dotenv
+python-dotenv   # To load configuration from .env
+requests        # To make web requests
+openpyxl        # To read Excel files
 
 ## Less frequently used packages:
 
 ## GIS
-{% if cookiecutter.project_type == "mapping" %}
+{% if cookiecutter.example_notebooks in ["mapping", "all"] -%}
 geopandas
-{% else %}
+matplotlib-scalebar
+{% else -%}
 # geopandas
+# matplotlib-scalebar
 {% endif %}
 
 ## ML, NLP, and related
@@ -32,7 +36,7 @@ geopandas
 # UKCensusAPI
 # fingertips_py
 # statxplorer @ https://github.com/philipbrien/statxplorer/zipball/master
-# LBLDataAccess @ https://github.com/lb-lewisham/LBLDataAccess.git
+# LBLDataAccess @ git+https://github.com/lb-lewisham/LBLDataAccess.git
 
 ## Interactives
 # bokeh
